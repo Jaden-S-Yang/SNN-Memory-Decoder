@@ -37,6 +37,8 @@ To run this notebook, you must register for a free account at [crcns.org](https:
 
 Place these files in your Google Drive or local working directory as specified in the notebook configuration cell.
 
+* **Note on Session Flexibility:** While this pipeline defaults to session files `ec012ec.187` (linear track) and `ec012ec.188` (post-behavior sleep), the code is built as a generalized pipeline. It can accept other sessions from the `ec012` animal or similar experimental blocks within the hc-3 dataset, provided the underlying file structure (metadata tables, spike times, and positional tracking files) remains consistent.
+
 ## Dependencies
 * NumPy
 * Matplotlib
